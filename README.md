@@ -32,6 +32,10 @@ reciprocity) 및 채널의 고유 특성을 활용하여 보안을 강화하는 
 있는 방법을 탐구하고자 한다.
 
 
+## System Model
+![image](https://github.com/user-attachments/assets/48e436b8-39ea-48a3-a518-f728ade13ec2)
+
+
 ## 과제 수행 내용
 1. 기존 논문 탐색 및 분석
 무선 통신 물리 계층 보안에 관한 기존 논문들을 분석하여, 제안된 기법
@@ -80,7 +84,12 @@ TDD(Time Division Duplexing) 상황에서 1대의 수신자, 1대의 도청자, 
 
 
 
-## Numerical Results & Conclusion
+## Numerical Results
+![image](https://github.com/user-attachments/assets/14323633-ab13-4a96-925a-5f1f7173cf1e)
+![image](https://github.com/user-attachments/assets/2795aa68-189d-48f9-b3d6-5481353582c3)
+
+
+
 본 실험은 송신 신호 대 잡음비(Signal-to-Noise Ratio, SNR)가 10dB이고
 부반송파 개수가 128개인 상황에서, 수신기가 수신한 Alice와 Eve의 신호
 강도가 동일할 때 임계값변화에 따른 탐지 확률을 분석한 결과이다. 실험
@@ -104,3 +113,5 @@ Alice의 신호 세기가 Eve보다 약한 경우에도 Alice를 성공적으로
 추계학술대회에 투고하였다.
 
 
+## Conclusion
+본 연구에서는 TDD 시스템에서 무선 채널 기반의 킷값 생성을 활용한 물리계층 인증 기법을 제안하고, 이 기법의 성능을 평가하였다. 특히, 무선 채널 상호성을 기반으로 생성된 키를 이용하여 합법적인 송신자(Alice)와 도청자(Eve)를 구분하는 과정에서, 임계값 설정이 인증 성능에 미치는 영향을 분석하였다.
